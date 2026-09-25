@@ -1,0 +1,6 @@
+{
+  "name": "Kiddos Group Family Daycare",
+  "description": "Where Little Explorers Grow, Learn & Thrive. Licensed family daycare in Washington Heights, NY providing safe, nurturing, and playful learning for ages 6 months to 5 years.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

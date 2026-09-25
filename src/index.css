@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', sans-serif;
+  --font-display: 'Poppins', sans-serif;
+  
+  --color-brand-green: #4CAF50;
+  --color-brand-yellow: #FFEB3B;
+  --color-brand-yellow-dark: #FBC02D;
+  --color-brand-red: #F44336;
+  --color-brand-blue: #2196F3;
+  --color-brand-purple: #9C27B0;
+  --color-cream: #FFFBF0;
+}
+
+/* Custom button styles and animations */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-sans {
+  font-family: var(--font-sans);
+}
+
+/* Custom micro-animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes pulse-subtle {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 2.5s ease-in-out infinite;
+}
